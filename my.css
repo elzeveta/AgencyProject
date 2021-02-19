@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+}
+#section-1 {
+    position: relative;
+}
+#section-1 .bg-img {
+    background-image: url(https://i.ytimg.com/vi/d-zKJCKsoWw/maxresdefault.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    filter: blur(3px);
+}
+#section-1 .text {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+#section-1 h1 {
+    font-size: 40px;
+}
+#section-1 p {
+    font-size: 20px;  
+    margin-bottom: 40px;
+}
+#section-1 .button {
+    font-size: 18px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgba(27, 26, 26, 0.884);
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    width: 100px;
+}
+#section-1 .button:hover {
+  border: 1px solid rgba(27, 26, 26, 0.884);
+    background-color: #fff;
+    color: rgba(27, 26, 26, 0.884);
+}
+#section-2 {
+    background-color: lightgray;
+    color: darkslategray;
+    padding: 20px;
+}
+#section-2 h2 {
+    text-align: center;
+}
+#section-2 p {
+    columns: 200px 2;
+    column-gap: 3em;
+    margin: 20px 250px;
+}
+#section-3 {
+    background-color: rgba(27, 26, 26, 0.884);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+img {
+    width: 100%;
+    height: 250px;
+}
+.box-1, .box-2, .box-3 {
+    width: 25%;
+    border: 1px solid gray;
+    background-color: #fff;
+    color: rgba(27, 26, 26, 0.884);
+    margin: 35px 10px;
+}
+.text {
+    text-align: center;
+    padding: 20px 0;
+    margin: 20px 30px;
+}
+.text p {
+    margin-top: 20px;
+}
+#section-4 {
+    background-color: #fff;
+    color: darkslategray;
+    text-align: center;
+    padding: 10px;
+}
+#section-4 h2 {
+    padding: 40px;
+}
+#section-4 p {
+    margin-bottom: 40px;
+}
+#section-5 {
+    color: #fff;
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+#section-5 .box-left {
+    background-color: rgb(39, 177, 231);
+    width: 50%;
+    padding: 40px 30px;
+}
+#section-5 .box-right {
+    background-color: rgba(27, 26, 26, 0.884);
+    width: 50%;
+    padding: 40px 30px;
+}
+#section-5 h2 {
+    margin-bottom: 20px;
+}
+#section-5 p {
+    padding: 20px;
+}
+.section-6 {
+    background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+.section-6 a {
+    color: rgb(39, 177, 231);
+    text-decoration: none;
+}
+
+
+
+
